@@ -1,0 +1,76 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.liquid",
+    "module": "myPlugin",
+    "version": "1.0.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.3.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "myPlugin-1.0.0.jar",
+          "url": "myPlugin-1.0.0.jar",
+          "size": 14757,
+          "sha512": "5cea67036276668d087fb97ca3d5698c93da5414b067cb54004d8b1a035630662a1740d3254925b9d5cb05ea278fe557c33119a4309b8928a15d26418e4eda28",
+          "sha256": "8523ea437ee0577d90a1e61393b1a75384ce990b04b147d11a5700a116c063cc",
+          "sha1": "451b29c1f74ade039267e159a779a7ff9d294519",
+          "md5": "f1b27fa4655b89182ed867f947d0e503"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.android.tools.build",
+          "module": "gradle",
+          "version": {
+            "requires": "3.2.0"
+          }
+        },
+        {
+          "group": "org.javassist",
+          "module": "javassist",
+          "version": {
+            "requires": "3.20.0-GA"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "myPlugin-1.0.0.jar",
+          "url": "myPlugin-1.0.0.jar",
+          "size": 14757,
+          "sha512": "5cea67036276668d087fb97ca3d5698c93da5414b067cb54004d8b1a035630662a1740d3254925b9d5cb05ea278fe557c33119a4309b8928a15d26418e4eda28",
+          "sha256": "8523ea437ee0577d90a1e61393b1a75384ce990b04b147d11a5700a116c063cc",
+          "sha1": "451b29c1f74ade039267e159a779a7ff9d294519",
+          "md5": "f1b27fa4655b89182ed867f947d0e503"
+        }
+      ]
+    }
+  ]
+}
